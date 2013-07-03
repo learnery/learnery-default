@@ -9,4 +9,4 @@
 
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
-Learnery::Application.config.secret_key_base = 'fddd309909b36ac864a8f9760c28a393104469ea64b7a77cd4d2614367839d0a6873e06fa959511f750a371ef71567f7eaffe5a6aa0273616c84ae65e8c06542'
+LearneryDefault::Application.config.secret_key_base = '75e634155160e4103109e4b960e2b4dc62f5c547a364284f52995240c62f279a4986c0bd328d3c0e8a3438ec3e81b5c8806ffe353db1d7c420c91b8e22452189'

@@ -3,4 +3,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-Learnery::Application.load_tasks
+LearneryDefault::Application.load_tasks
