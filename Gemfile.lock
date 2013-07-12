@@ -24,9 +24,8 @@ GIT
   specs:
     learnerydeploy (0.0.1)
 
-GIT
-  remote: git://github.com/learnery/learnery.git
-  revision: 35f3b824ac3ff01757bf71736de52b7b4b1461ed
+PATH
+  remote: ../learnery
   specs:
     learnery (0.0.1)
       capybara
