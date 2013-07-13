@@ -5,10 +5,11 @@ Learnery is a rails engine you can use in your rails app to organize open learni
 This example app shows the use of the learnery engine and
 gives you a good starting point for building your own app.
 
-![learnery in  default app](http://learnery.github.io/images/screenshot-1.png)
-
 * [Repository](https://github.com/learnery/learnery-default)
 * [Demo](http://learnery-staging.herokuapp.com/)
+* Screenshot:
+![learnery in  default app](http://learnery.github.io/images/screenshot-1.png)
+
 
 
 ## Installation
