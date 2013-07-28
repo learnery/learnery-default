@@ -4,3 +4,4 @@ rvm:
 - 2.0.0
 script:
 - rake
+- rake learnery:deploy["learnery-staging"]
