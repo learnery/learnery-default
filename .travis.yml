@@ -4,4 +4,11 @@ rvm:
 - 2.0.0
 script:
 - rake
+after_success:
 - rake learnery:deploy["learnery-staging"]
+env:
+  global:
+    secure: |-
+      XxSvcwTEd+wC0SeVlrGvUOcRfksk+6wFsSOJbFm8S+YZfUWSTIrx1GXsXDCZ
+      xxvbak3iAPXsX75L8Pf2pZl7t9Gma+iqOTtBAWrcrNU+ebgY3Wgte2wE/3t2
+      n2WkTOqIwGXOaIV09WiWEgHLS4mhvLZy11ZIw4IGJfqJQCCSDPk=
