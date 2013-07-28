@@ -1,4 +1,5 @@
  source 'https://rubygems.org'
+ ruby '2.0.0'
 
 # dependency to learnery
 # uses local learnery if LEARNERY_LOCAL is set, e.g. with
@@ -19,7 +20,11 @@ end
 
 group :development, :test do
   gem 'heroku-headless', github: 'learnery/heroku-headless'
-  gem 'learnerydeploy',  github: 'learnery/deployment'
+  if ENV['DEPLOYMENT_LOCAL']
+    gem 'learnerydeploy', :path => ENV['DEPLOYMENT_LOCAL']
+  else
+    gem 'learnerydeploy',  github: 'learnery/deployment'
+  end
 end
 group :production do #heroku
   # to enable static asset serving for rails4 on heroku
