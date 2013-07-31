@@ -19,7 +19,7 @@ end
   # https://github.com/learnery/heroku-headless/commit/b5179227c710ac84e871b91699fd0fc355d43b28
 
 group :development, :test do
-  gem 'heroku-headless', github: 'learnery/heroku-headless'
+  gem 'heroku-headless', '>= 0.2.1'
   if ENV['DEPLOYMENT_LOCAL']
     gem 'learnerydeploy', :path => ENV['DEPLOYMENT_LOCAL']
   else

@@ -17,14 +17,6 @@ GIT
     learnerydeploy (0.0.1)
 
 GIT
-  remote: git://github.com/learnery/heroku-headless.git
-  revision: 2de9dd1f47b611ea5720ba0458d95a3e269062b0
-  specs:
-    heroku-headless (0.2.0)
-      heroku-api
-      rendezvous
-
-GIT
   remote: git://github.com/learnery/learnery.git
   revision: 174948cb57595ae3aa9e551a733f9ba39da02943
   ref: 174948cb57595ae3aa9e551a733f9ba39da02943
@@ -130,6 +122,9 @@ GEM
     hashie (2.0.5)
     heroku-api (0.3.14)
       excon (~> 0.25.1)
+    heroku-headless (0.2.1)
+      heroku-api
+      rendezvous
     hike (1.2.3)
     http_parser.rb (0.5.3)
     httpauth (0.2.0)
@@ -280,7 +275,7 @@ DEPENDENCIES
   coffee-rails (~> 4.0.0)
   database_cleaner
   factory_girl_rails
-  heroku-headless!
+  heroku-headless (>= 0.2.1)
   jbuilder (~> 1.2)
   jquery-rails
   launchy
