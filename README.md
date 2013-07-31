@@ -11,7 +11,6 @@ gives you a good starting point for building your own app.
 ![learnery in  default app](http://learnery.github.io/images/screenshot-1.png)
 
 
-
 ## Installation
 
 Fork this repository https://github.com/learnery/learnery-default, for example
@@ -24,7 +23,7 @@ to your development machine
     rake db:migrate
     rails s
 
-See the documentation of learnery 
+See the documentation of learnery
 https://github.com/learnery/learnery
 for more information about adapting this app.
 
